@@ -1,0 +1,6 @@
+{
+  "name": "Studio Pounce — Bold Poppy Painting & Art Studio",
+  "description": "Vibrant artistic painting studio and creative portfolio inspired by bold poppy expressionism, fine art canvases, masterclasses, and color theory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

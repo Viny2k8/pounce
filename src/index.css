@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-maroon-950: #230308;
+  --color-maroon-900: #33050D;
+  --color-maroon-800: #420812;
+  --color-maroon-700: #4A0E17;
+  --color-maroon-600: #651522;
+  --color-maroon-500: #851C2D;
+
+  --color-poppy-pink: #FF3366;
+  --color-poppy-pink-hover: #E61952;
+  --color-poppy-orange: #FF5E36;
+  
+  --color-powder-blue: #D0E1FD;
+  --color-powder-blue-muted: #B9D3FC;
+  --color-powder-blue-light: #EDF4FF;
+
+  --color-canvas-cream: #FAF8F5;
+  --color-canvas-sand: #F3EFE9;
+}
+
+/* Custom Artistic Studio Flourishes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Subtle canvas texture simulation */
+.canvas-grain {
+  background-image: radial-gradient(rgba(74, 14, 23, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #4A0E17;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF3366;
+}
